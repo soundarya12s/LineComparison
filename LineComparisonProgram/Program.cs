@@ -15,7 +15,15 @@ class Program
                 Console.WriteLine("Line1 and Line2 are equal");
             else
                 Console.WriteLine("Line 1 and Line 2 are not equal");
-           
+
+
+            if ((line1.CompareTo(line2) == 0))
+                Console.WriteLine("Both are equal");
+            if (line1.CompareTo(line2) > 0)
+                Console.WriteLine("Line1>line2");
+            if (line1.CompareTo(line2) < 0))
+                    Console.WriteLine("Line1< line2");s
+
         }
     }
 
